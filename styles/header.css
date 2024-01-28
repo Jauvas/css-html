@@ -1,0 +1,112 @@
+.searchbar{
+    display: block;
+    border-radius: 3px;
+    height: 42px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 201, 201);
+    box-shadow: inset 1px 2px 5px rgb(0, 0, 0 0.15);
+    width: 0;
+}
+
+.searchbar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    transition: 0.5s;
+    align-items: center;
+}
+
+.middle-section button{
+    height: 44px;
+    border-color: rgb(238, 230, 230);
+    border-style: solid 0.5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(206, 201, 201);
+    box-shadow: inset 1px 2px 5px rgb(0, 0, 0 1);
+}
+
+.middle-section img{
+    height: 30px;
+    margin-top: 4px;
+    background-color: rgb(241, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(241, 240, 240);
+    margin: 2px;
+    border: none;
+
+}
+
+.search{
+    height: 45px;
+    margin-right: 15px;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+}
+
+
+.mic{
+    height: -70px;
+    width: -70px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    border-color: white;
+}
+
+.voice-search{
+    height: 20px;
+    margin-top: 4px;
+  
+}
+
+.right-section{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.upload{
+    height: 24px;
+}
+
+.apps{
+    height: 24px;
+}
+
+.notifications{
+    height: 24px;
+}
+
+.user{
+    height: 40px;
+    border-radius: 16px;
+}
