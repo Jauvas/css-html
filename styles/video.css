@@ -42,6 +42,7 @@
 
 .channel-picture_row{
     margin-bottom: 12px;
+    position: relative;
 }
 
 .video_channel,
@@ -52,5 +53,20 @@
 
 .video_channel{
     margin-bottom: 4px;
+}
+
+.video-time{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    padding-top: 4px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
 }
 
