@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS-html</title>
+    <title>Web3</title>
     <link rel="icon" type="image/x-icon" href="pics/channels4_profile throttlehouse.jpg">
 
     <style>
@@ -11,8 +11,8 @@
             background-color: rgb(193, 215, 238);
         }
         .subscribe_button{
-            background-color: rgb(255, 0, 0);
-            color: white;
+            background-color: rgb(0, 255, 64);
+            color: black;
             border: none;
             height: 30px;
             width: 80px;
@@ -21,7 +21,17 @@
             margin-right: 8px;
             transition: opacity 0.5s;
             border-radius: 40px;
+            height: 50px;
         }
+
+        .subscribe_button a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
         
         .subscribe_button:hover{
             opacity: 0.8;
@@ -35,7 +45,7 @@
             background-color: white;
             border: none;
             color: rgb(41, 118, 211);
-            height: 30px;
+            height: 50px;
             width: 80px;
             border-radius: 50px;
             cursor: pointer;
@@ -73,13 +83,21 @@
             background-color: rgb(2, 137, 255);
             color: white;
             border: none;
-            height: 30px;
+            height: 50px;
             width: 75px;
-            border-radius: 15px;
+            border-radius: 40px;
             font-weight: bold;
             font-size: 15px;
             cursor: pointer;
             transition: box-shadow 0.5s;
+        }
+
+        .tweet_button a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
         }
 
         .tweet_button:hover{
@@ -89,11 +107,22 @@
 </head>
 <body>
     <a href="index.html">Home</a>
-    <button class="subscribe_button">subscribe</button>
-    <button class="join_button">
-        <a href="youtube.html" target="_blank">Visit Us</a>
+    <button class="subscribe_button">
+        <a href="tel:+256772615135"><img src="call.png" alt=""></a>
     </button>
-    <button class="tweet_button">Tweet</button>
+    <button class="subscribe_button">
+        <a href="https://wa.me/+256772615135?text=Hello%20there!">Whatsapp</a>
+    </button>
+    <button class="join_button">
+        <a href="youtube.html" target="_blank">Web3</a>
+    </button>
+    
+    <button class="tweet_button">
+        <a href="https://jauvas.github.io/YJ-AARON/" target="_blank">web1</a>
+    </button>
+    <button class="tweet_button">
+        <a href="https://jauvas.github.io/YJ-AARON-Organisational-website/" target="_blank">web2</a>
+    </button>
     
 </body>
 </html>
